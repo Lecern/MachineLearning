@@ -2,12 +2,11 @@ import numpy as np
 
 
 class Perceptron():
-    """
-    eta 学習率 float
-    n_iter トレーニングデータのトレーニング回数
-    """
-
     def __init__(self, eta=0.01, n_iter=10):
+        """
+        eta 学習率 float
+        n_iter トレーニングデータのトレーニング回数
+        """
         self.eta = eta
         self.n_iter = n_iter
 
