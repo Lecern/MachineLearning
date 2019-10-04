@@ -18,7 +18,7 @@ class Perceptron():
         :return:
         """
         self.w_ = np.zeros(1 + X.shape[1])
-        self.errors = []
+        self.errors_ = []
 
         for _ in range(self.n_iter):
             errors = 0
@@ -29,7 +29,7 @@ class Perceptron():
                 # 重み w0
                 self.w_[0] += update
                 errors += int(update != 0.0)
-            self.errors.append(errors)
+            self.errors_.append(errors)
         return self
 
     def net_input(self, X):
