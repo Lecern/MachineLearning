@@ -14,4 +14,7 @@ b = ("Tom", "Jack", "Alice")
 
 print(tuple(zip(a, b)))
 
+for i, j in zip(a, b):
+    print("i:", i, "j:", j)
+
 print("Hello world")
