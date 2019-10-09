@@ -18,3 +18,6 @@ for i, j in zip(a, b):
     print("i:", i, "j:", j)
 
 print("Hello world")
+
+# %%
+print("hello world")
