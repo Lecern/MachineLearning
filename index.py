@@ -17,7 +17,5 @@ print(tuple(zip(a, b)))
 for i, j in zip(a, b):
     print("i:", i, "j:", j)
 
-print("Hello world")
-
-# %%
-print("hello world")
+list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(list[1:])
