@@ -25,3 +25,13 @@ print("shape of array1:", randArr.shape[1])
 randArr3 = np.random.rand(3, 2, 2)
 
 print("random array 3:\n", randArr3)
+
+print("---------------------------------------------------------------------")
+
+simu_X = np.arange(10).reshape((5, 2))
+simu_X = np.random.permutation(simu_X)
+print(simu_X)
+simu_r = np.random.permutation(5)
+print(simu_r)
+
+print("X[r]", simu_X[simu_r])

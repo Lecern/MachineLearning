@@ -65,6 +65,7 @@ class AdalineSGD(object):
     def _shuffle(self, X, y):
         """"トレーニングデータをシャッフル"""
         r = np.random.permutation(len(y))
+        # if you still don't understand, see index.py line 31-37
         return X[r], y[r]
 
     def _initialize_weight(self, m):
