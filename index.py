@@ -35,3 +35,7 @@ simu_r = np.random.permutation(5)
 print(simu_r)
 
 print("X[r]", simu_X[simu_r])
+print("---------------------------------------------------------------------")
+
+arange_arr = np.arange(0, 10, 0.2)
+print(arange_arr)
